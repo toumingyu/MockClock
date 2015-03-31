@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74ABDC"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/lundun"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="纽约时间"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/beijing"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="北京时间"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <com.donkey183.clock.MockClockView
+        android:id="@+id/clock_view"
+        style="@style/AppWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="40dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp" />
+
+</LinearLayout>

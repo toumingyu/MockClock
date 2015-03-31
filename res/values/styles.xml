@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppWidget">
+        <item name="dial">@drawable/dial</item>
+        <item name="hand_hour">@drawable/hour</item>
+        <item name="hand_minute">@drawable/minute</item>
+        <item name="hand_second">@drawable/second</item>
+        <item name="hand_tmp">@drawable/tmp</item>
+    </style>
+
+</resources>
